@@ -29,7 +29,7 @@ const Projects = () => {
                       Placeholder</h5>
                   </div>
                   <div className="MuiBox-root jss1848">
-                    <h1 className="MuiTypography-root MuiTypography-h1">{currentProject.name}</h1>
+                    <h1 className="MuiTypography-root MuiTypography-h1">Project name placeholder</h1>
                   </div>
                   <div className="MuiBox-root jss1849">
                     <h5 className="MuiTypography-root MuiTypography-h5">Client Name
@@ -180,7 +180,7 @@ const Projects = () => {
                           <p className="MuiTypography-root MuiTypography-body1">
                             <a className="MuiTypography-root MuiLink-root jss1912 MuiLink-underlineNone MuiTypography-colorPrimary"
                                target="_blank"
-                               id="name_placeholder">{employee.name}</a>
+                               id="name_placeholder">Employee name placeholder</a>
                           </p>
                         </div>
                         <div className="MuiBox-root jss1961">
