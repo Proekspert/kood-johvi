@@ -39,7 +39,6 @@ let Pulse = {
         populateProjectTechnologies: function (projectId) {
             let $techList = $('div#project-technologies');
             $techList.empty();
-
             $.ajax({
                 url: Pulse.baseUrl + '/api/projects/' + projectId,
                 headers: Pulse.headers,
@@ -49,8 +48,7 @@ let Pulse = {
                     data.technologies
                         .forEach((technology) => $techList.append(Pulse.projects.buildTechnology(technology)))
                 }
-            })
-
+            });
         },
 
         cleanTechnologies: function () {
