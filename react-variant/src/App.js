@@ -1,6 +1,8 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Projects from './components/Projects';
+
+import Employee from './components/Employee';
+import Project from './components/Project';
+import React from 'react';
 
 function App() {
   const [project, setProject] = React.useState(null);
@@ -24,10 +26,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<span>Asd</span>}/>
-        <Route path="project" element={<Projects/>}/>
+        <Route index element={<span>Go to either /project or /employee</span>}/>
+        <Route path="project" element={<Project/>}/>
+        <Route path="employee" element={<Employee/>}/>
         <Route path="*" element={(
-          <span>Lol</span>
+          <span>Nothing here</span>
         )}/>
       </Routes>
     </BrowserRouter>
