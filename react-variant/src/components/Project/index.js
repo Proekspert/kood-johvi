@@ -41,38 +41,11 @@ const Project = () => {
                     </div>
                     <div className="MuiBox-root jss1851">
                       <h5 className="MuiTypography-root MuiTypography-h5">Technologies</h5>
-                      <div className="MuiBox-root jss1852">
-                        <div className="MuiChip-root jss1609 MuiChip-outlined jss1610"
-                          id="Tech_1_Placeholder">
-                          <span
-                            className="MuiChip-label">
-                            <p
-                              className="MuiTypography-root MuiTypography-body1"
-                              style={{ fontWeight: 600, fontSize: '14px', lineHeight: 'unset' }}>Tech 1 Placeholder</p>
-                          </span>
-                        </div>
-                        <div className="MuiChip-root jss1609 MuiChip-outlined jss1610"
-                          id="Tech_2_Placeholder">
-                          <span
-                            className="MuiChip-label">
-                            <p
-                              className="MuiTypography-root MuiTypography-body1"
-                              style={{ fontWeight: 600, fontSize: '14px', lineHeight: 'unset' }}>
-                              Tech 1 Placeholder
-                             </p>
-                          </span>
-                        </div>
-                        <div className="MuiChip-root jss1609 MuiChip-outlined jss1610"
-                          id="Tech_3_Placeholder">
-                          <span
-                            className="MuiChip-label">
-                            <p
-                              className="MuiTypography-root MuiTypography-body1"
-                              style={{ fontWeight: 600, fontSize: '14px', lineHeight: 'unset' }}>
-                              Tech 1 Placeholder
-                              </p>
-                          </span>
-                        </div>
+                      <div className="MuiBox-root jss1852" id="technologies">
+                        <Label name="Tech 1 Placeholder" />
+                        <Label name="Tech 2 Placeholder" />
+                        <Label name="Tech 3 Placeholder" />
+                        <Label name="Tech 4 Placeholder" />
                       </div>
                     </div>
                     <h5 className="MuiTypography-root MuiTypography-h5">Project managed by</h5>
@@ -104,15 +77,6 @@ const Project = () => {
             <div className="MuiGrid-root jss1877 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7">
               <div className="MuiBox-root jss1827 jss1887">
                 <div className="MuiTabs-root jss1889">
-                  <div style={{
-                    width: '99px',
-                    height: '99px',
-                    position: 'absolute',
-                    top: '-9999px',
-                    overflow: 'scroll'
-                  }}
-                    className="MuiTabs-scrollable">
-                  </div>
                   <div className="MuiTabs-scroller MuiTabs-scrollable" style={{ marginBottom: 0 }}>
                     <div className="MuiTabs-flexContainer" role="tablist">
                       <button className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary jss1523 Mui-selected"

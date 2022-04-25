@@ -4,7 +4,7 @@ import placeholderImage from '../../placeholder.png';
 const EmployeesPageWrapper = ({ children }) => {
   return (
     <div id="wrapper" className="employees_wrapper">
-      <div id="root" aria-hidden="true" style={{ paddingRight: "17px", overflow: "hidden" }}>
+      <div id="root" aria-hidden="true" style={{ paddingRight: "17px", overflow: "hidden", height: "100vh" }}>
         <div className="MuiBox-root jss1 App" style={{ boxSizing: "content-box" }}>
           <div className="MuiBox-root jss5">
             <div className="MuiBox-root jss6">

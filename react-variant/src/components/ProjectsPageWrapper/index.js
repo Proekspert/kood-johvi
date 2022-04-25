@@ -3,7 +3,7 @@ import React from "react";
 const ProjectsPageWrapper = ({ children }) => {
   return (
     <div id="wrapper" className="projects_wrapper">
-      <div id="root" aria-hidden="true" style={{ paddingRight: "17px", overflow: "hidden" }}>
+      <div id="root" aria-hidden="true" style={{ paddingRight: "17px", overflow: "hidden", height: "100vh" }}>
         <div className="MuiBox-root jss1 App" style={{ boxSizing: "content-box" }}>
           <div className="MuiBox-root jss1571">
             <div className="MuiBox-root jss1572">

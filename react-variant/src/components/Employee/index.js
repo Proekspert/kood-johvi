@@ -4,6 +4,7 @@ import Drawer from '../Drawer';
 import EmployeesPageWrapper from '../EmployeesPageWrapper';
 import Label from '../Label';
 import React from "react";
+import Role from '../Role';
 import placeholderImage from '../../placeholder.png';
 
 const Employee = () => {
@@ -61,30 +62,10 @@ const Employee = () => {
                           style={{ 'wordBreak': 'breakWord' }}>Title Placeholder</h3>
                       </div>
                       <div className="jss186" id="roles">
-                        <div className="MuiChip-root jss91 MuiChip-outlined jss92">
-                          <span className="MuiChip-label">
-                            <p className="MuiTypography-root MuiTypography-body1" style={{ 'fontWeight': 600, 'fontSize': '14px', 'lineHeight': 'unset' }}>
-                              Truthsayer</p>
-                          </span>
-                        </div>
-                        <div className="MuiChip-root jss91 MuiChip-outlined jss92">
-                          <span className="MuiChip-label">
-                            <p className="MuiTypography-root MuiTypography-body1" style={{ 'fontWeight': 600, 'fontSize': '14px', 'lineHeight': 'unset' }}>Reverend
-                            Mother</p>
-                          </span>
-                        </div>
-                        <div className="MuiChip-root jss91 MuiChip-outlined jss92">
-                          <span className="MuiChip-label">
-                            <p className="MuiTypography-root MuiTypography-body1" style={{ 'fontWeight': 600, 'fontSize': '14px', 'lineHeight': 'unset' }}>
-                              Sisterhood Agent</p>
-                          </span>
-                        </div>
-                        <div className="MuiChip-root jss91 MuiChip-outlined jss92">
-                          <span className="MuiChip-label">
-                            <p className="MuiTypography-root MuiTypography-body1" style={{ 'fontWeight': 600, 'fontSize': '14px', 'lineHeight': 'unset' }}>Role
-                            Placeholder</p>
-                          </span>
-                        </div>
+                        <Role role="Truthsayer" />
+                        <Role role="Reverend Mother" />
+                        <Role role="Sisterhood Agent" />
+                        <Role role="Placeholder" />
                       </div>
                     </div>
                     <div className="MuiBox-root jss138">
@@ -108,8 +89,13 @@ const Employee = () => {
                       <div className="MuiBox-root jss95">
                         <h5 className="MuiTypography-root MuiTypography-h5">Skills</h5>
                       </div>
-                      <p className="MuiTypography-root jss192 MuiTypography-body1" id="skills">Skills Placeholder<br />
-                      </p>
+                      <div className="MuiTypography-root jss192 MuiTypography-body1" id="skills">
+                        <Label name="Prana-bindu training" />
+                        <Label name="Truthsaying" />
+                        <Label name="Infiltration" />
+                        <Label name="So Ugly It's Disturbingly Charming" />
+                        <Label name="Dune References" />
+                      </div>
                     </div>
                     <div className="MuiBox-root jss94">
                       <div className="MuiBox-root jss95">
@@ -125,13 +111,6 @@ const Employee = () => {
                       <p className="MuiTypography-root jss192 MuiTypography-body1" id="languages">Chakobsa, Galach<br />
                       </p>
                     </div>
-                    <div className="MuiBox-root jss102">
-                      <button className="MuiButtonBase-root MuiButton-root MuiButton-outlined jss23 MuiButton-disableElevation" tabIndex="0"
-                        type="button" id="Log out">
-                        <span className="MuiButton-label">Log out</span>
-                        <span className="MuiTouchRipple-root" />
-                      </button>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -139,8 +118,6 @@ const Employee = () => {
             <div className="MuiGrid-root jss183 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7">
               <div className="MuiBox-root jss59 jss193">
                 <div className="MuiTabs-root jss195">
-                  <div style={{ width: "99px", height: "99px", position: "absolute", top: "-9999px", overflow: "scroll" }} className="MuiTabs-scrollable">
-                  </div>
                   <div className="MuiTabs-scroller MuiTabs-scrollable" style={{ marginBottom: 0 }}>
                     <div className="MuiTabs-flexContainer" role="tablist">
                       <button className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary jss8 Mui-selected" tabIndex="0" type="button"
